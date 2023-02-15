@@ -15,6 +15,9 @@ One day I realized that we have many vacation photos on our family server that w
 # Learning Outcomes
 This has been a great opportunity to learn about Telegram bots, EXIF, GPS, image processing, and how to use Python to iterate over very large lists that might not fit into memory.
 
+# Possible Development
+I think this could be a fun way to manage your photo library. Maybe you could ask the bot for specific images, images of specific people, or images taken on specific dates. It could identify similar pictures and ask you to pick only one to keep to reduce clutter.
+
 # The Files
 - **config.cfg-mock** - A mock configuration file that contains API token, chat id, bot id, and list of folders to look through. It also acts as temporary storage to help distinguish between processed and new messages and to store the ids of ongoing polls. Rename it to config.cfg when in use.
 - **pb_sendPicture.py** - A script that you run (with cron, for example) whenever you want to send a new random image
