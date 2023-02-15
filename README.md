@@ -1,5 +1,5 @@
 # Daily Photo Telegram Bot
-One day I realized that we have many vacation photos on our family server that we rarely look at. Moreover, when it comes to adding photos, vacation photos are dumped from all the phones into a single folder without looking at them. I thought that it would be cool to have some sort of service that randomly picks a photo from preselected folders and send it to us to reminisce and review. A bot for a messenger Telegram fits the job description perfectly.
+One day I realized that we have many vacation photos on our family server that we rarely look at. Moreover, when it comes to adding photos, vacation photos are dumped from all the phones into a single folder without looking at them. I thought that it would be cool to have some sort of service that randomly picks a photo from preselected folders and send it to us to reminisce and review. A bot for a messenger Telegram fits the job description perfectly. It has been in operation since early 2020.
 
 # Description
 - Telegram Bots are not really designed for this. They are meant to be accessible to everybody. My solution to that is to restrict the bot to only listen and respond to one particular chat id, provided in the configuration file.
