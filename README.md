@@ -8,8 +8,8 @@ One day I realized that we have many vacation photos on our family server that w
 - The EXIF data gets extracted from the image. The two things I am interested in are the date and time when the photo was taken and the GPS coordinates.
 - The bot sends the image to our family chat along with its relative path, the date/time it was taken (or the date/time of the file creation, if not available), and a location pin if the image contained GPS data. Note that the image is uploaded to Telegram, which could be a potential security concern for some.
 - There are two commands the bot supports, which are triggered by replying to the message containing the photo:
-  - /delete - The command tells the bot to create a poll so we can vote on whether to remove the image from the server.
-  - /rotate cw|ccw - The command tells the bot to rotate the image clockwise or counterclockwise and resend the image.
+  - **/delete** - The command tells the bot to create a poll so we can vote on whether to remove the image from the server.
+  - **/rotate cw|ccw** - The command tells the bot to rotate the image clockwise or counterclockwise and resend the image.
 - These commands are processed by a separate script that runs once a minute.
 
 # Learning Outcomes
